@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interview Bridge - AI Interview Coach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Interview Bridge</div>
+    <div id="clock">00:00:00</div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>AI Interview Coach</h1>
+    <p class="subtitle">Practice professional communication with guided feedback</p>
+
+    <!-- Round Selection -->
+    <select id="roundSelect">
+      <option value="HR">HR Round</option>
+      <option value="Behavioral">Behavioral Round</option>
+    </select>
+
+    <button id="questionbtn">Start Interview</button>
+
+    <p id="question">Click to begin your mock interview</p>
+
+    <!-- Coaching Tip -->
+    <p id="tip" class="tip-box"></p>
+
+    <textarea id="answer" placeholder="Speak or type your answer here..."></textarea>
+
+    <div class="buttons">
+      <button id="recordBtn">Record Voice</button>
+      <button id="submitBtn">Submit Answer</button>
+    </div>
+
+    <div class="result">
+      <p id="feedback">Waiting for submission...</p>
+      <h3>Score</h3>
+      <p id="Score">0/10</p>
+    </div>
+
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
