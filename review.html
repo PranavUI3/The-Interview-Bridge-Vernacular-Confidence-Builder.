@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Reviews</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">AI Interview Coach</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="important.html">Important Questions</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <h1>User Reviews</h1>
+    <p class="subtitle">See what others say about their experience.</p>
+
+    <div class="review-form">
+      <input type="text" id="name" placeholder="Your Name" autocomplete="off">
+      <textarea id="message" placeholder="Write your review..."></textarea>
+      <button onclick="addReview()">Submit Review</button>
+    </div>
+
+    <div class="reviews-list">
+      <!-- Reviews appear here -->
+    </div>
+  </div>
+</main>
+
+<script src="review.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212;
+  color: #e5e5e5;
+}
+
+header {
+  height: 10vh;
+  background: #1a1a1a;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #d4d4d4;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #10b981;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.container {
+  width: 700px;
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #10b981;
+  margin-bottom: 20px;
+}
+
+.question-card {
+  background-color: #2a2a2a;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+}
+
+.question-card:hover {
+  transform: scale(1.02);
+  border-left: 5px solid #10b981;
+} */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+header {
+  height: 10vh;
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  color: #0f172a;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #0f172a;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.container {
+  width: 700px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.question-card {
+  background-color: #f8fafc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+  border-left: 5px solid transparent;
+}
+
+.question-card:hover {
+  transform: scale(1.02);
+  border-left: 5px solid #2563eb;
+  background-color: #e2e8f0;
+}
